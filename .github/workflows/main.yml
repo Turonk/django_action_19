@@ -17,5 +17,5 @@ jobs:
         pip install -r requirements.txt
     - name: Test with django test
       run: |
-        cd mypojec/
+        cd myprojec/
         python manage.py test
