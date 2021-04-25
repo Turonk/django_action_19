@@ -11,6 +11,3 @@ class StaticPagesURLTests(TestCase):
         """Проверка доступности главной страницы."""
         response = self.guest_client.get(reverse('index'))
         self.assertEqual(response.status_code, 200)
-
-# просто файл test.py и добавить еще 2 теста на неглавную страничку и контекст
-# добавить тест на URL
