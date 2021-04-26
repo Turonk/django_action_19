@@ -18,3 +18,5 @@ jobs:
     - name: Test with django test
       run: |
         python -m flake8 #проверка в теории вначале только flake
+        cd myprojec/
+        python manage.py test
